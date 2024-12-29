@@ -1,6 +1,5 @@
-#{
-  margin: 0;
-  padding: 0;
+*{
+  margin: 0; padding: 0;
 }
 
 body{
@@ -8,51 +7,43 @@ body{
 }
 
 .navbar{
-  padding: 10px;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  border-bottom: solid black 2px;
+  padding: 10px; 
+  display: flex; justify-content:space-between;
+  border-bottom: solid black 1px; align-items: center;
 }
 
 .navbar_s1{
-  color: #A435f0;
+  color: #A435F0;
   
-}i
+}
 .navbar_s2{
-  padding: 10px;
-  border: solid black 2px;
-  border-radius: 30px;
-  width: 60%;
-  display: flex;
-  gap: 10px;
+  padding: 10px; border: solid black 1px;
+  border-radius: 30px; width: 60%;
+  display: flex; gap: 10px;
 }
 .navbar_s2 input{
-  width: 100%;
-  border: none;
+  width: 100%; border: none; 
+  
   
 }
 .navbar_s2 input:focus{
   outline: none;
 }
 .navbar_s3{
-  display: flex;
-  gap: 10px;
+  display: flex; gap: 10px;
 }
 .categories{
-  display: flex;
-  padding: 10px;
+  display: flex; padding: 10px;
   border-bottom: solid black 1px;
   justify-content: space-around;
 }
 .categories p{
-  background-color: #A435f0;
-  padding: 10px;
+  background-color: #A435F0;
   border-radius: 30px;
-  color:white;
-  
+  padding: 10px;
+  color: white;
 }
-.sale image{
+.sale-image img{
   width: 100%;
 }
 .recommended{
@@ -65,14 +56,12 @@ body{
   margin-top: 10px;
 }
 .course-card{
-  width: 20%;
+  width: 200px;
   
 }
 .course-card img{
   width: 100%;
   height: 50%;
-  
-  
 }
 .topics{
   padding: 10px;
@@ -90,30 +79,29 @@ body{
 }
 .popular{
   padding: 10px;
-  
 }
-.popular__container{
+.popular_container{
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  gap: 10px;
   flex-wrap: wrap;
 }
 .footer{
   padding: 30px;
-  background: black;
-  color: white;
+  background-color: black;
+  color: white
+  
 }
-.footer__one{
-  display:flex;
-   gap: 10px;  
+.footer_one{
+  display: flex; gap: 10px;
 }
-.footer__one p{
+.footer_one p{
   margin: 20px;
+  
 }
-.footer__two{
-  display: flex;
+.footer_two{
+  display: flex; justify-content: space-between;
   margin: 20px;
   align-items: center;
-  justify-content: space-between;
 }
+
